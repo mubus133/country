@@ -1,0 +1,190 @@
+*{
+    text-decoration: none !important;
+    font-family: 'Hanken Grotesk',sans-serif !important;
+
+}
+.navv{
+    border: none;
+    background-color: white;
+
+}
+
+.na{
+    width: 99%;
+}
+.navbar-brand{
+    color: #212844;
+    font-size: 28px;
+    font-weight: 900;
+}
+
+span{
+    color: #008ECC;
+}
+
+.form{
+    width: 507px;
+    height: 48px;
+}
+
+.form-control{
+    background-color: #F3F9FB;
+}
+
+.button{
+    outline: #008ECC ;
+    border: 1px solid #008ECC;
+    width: 100px;
+}
+
+.button:hover{
+    background-color: #008ECC;
+    color: white;
+}
+
+.bi-person{
+    color: #008ECC;
+    font-weight: 700;
+}
+
+.bi-cart3{
+    text-decoration: none !important;
+    color: #008ECC;
+}
+
+.icon{
+    display: flex;
+    gap: 20px;
+}
+
+
+a{
+    color: black;
+    font-family: 'Hanken Grotesk',sans-serif;
+    font-size: 24px;
+}
+
+.cart{
+    color: black;
+    font-family: 'Hanken Grotesk',sans-serif;
+}
+
+/* carousel-1 */
+
+main{
+    margin-top: 30px;
+}
+
+#carous{
+    margin-top: 30px;
+}
+
+.carousel-inner{
+    background-color: #212844;
+    color: white;
+    padding: 20px;
+    width: 95%;
+    height: 316px;
+    margin: auto;
+    border-radius: 16px;
+}
+
+.carousel-item{
+    margin-left: 75px;
+    font-family: 'Hanken Grotesk',sans-serif;
+    /* display: flex; */
+}
+
+.all{
+   margin-top: 50px;
+   margin-left: 60px;
+}
+
+.img{
+    margin-left: 15em;
+    height: 270px;
+    width: 268px;
+    position: absolute;
+    right: 10em;
+    top: 0;
+}
+
+
+/* carousel-2 */
+.product{
+    width: 95%;
+    margin: 90px auto;
+}
+
+h3{
+    text-decoration: 1px solid dashed;
+}
+ /* product */
+
+ .product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.product-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+}
+
+.product-card img {
+    max-width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.product-card button {
+    background-color: #008ECC;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.product-card button:hover {
+    background-color: #006fa6;
+}
+
+.product-details {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 50px;
+    z-index: 999;
+}
+
+.product-details .details-content {
+    max-width: 800px;
+    margin: auto;
+    background-color: #333;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.product-details .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+}       

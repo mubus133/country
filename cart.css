@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.card {
+    width: 100%;
+}
+
+.card img {
+    max-height: 200px;
+    object-fit: cover;
+}
+
+#checkoutBtn {
+    margin-top: 20px;
+}
+
+button {
+    cursor: pointer;
+}
