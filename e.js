@@ -48,7 +48,7 @@ function displayProducts(products) {
         productCard.innerHTML = `
             <img src="${product.image}" alt="${product.title}">
             <h5>${product.title}</h5>
-            <p>$${product.price*2}</p>
+            <p>$${product.price}</p>
             <button data-id="${product.id}" class="add-to-cart-btn">Add to Cart</button>
         `;
         productCard.querySelector('.add-to-cart-btn').addEventListener('click', () => addToCart(product));
