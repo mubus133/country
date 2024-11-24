@@ -160,7 +160,7 @@ const signIn = document.querySelector('.signin')
 const logOut = document.querySelector('.logout')
 const drop = document.querySelector('.dropdown-menu')
 
-dropDownMenu.addEventListener('click', () => {
+function dropdownnav() {
 
     if (drop === signUp) {
         window.location = 'signupform.html';
@@ -171,4 +171,6 @@ dropDownMenu.addEventListener('click', () => {
         alert('please signup');
     }
 
-});
+}
+
+dropdownnav() 
