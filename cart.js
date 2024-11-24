@@ -44,5 +44,5 @@ renderCart();
 
 
 document.getElementById('checkoutBtn').addEventListener('click', function() {
-    window.location.href = 'checkout.html'; // Redirect to checkout page
+    window.location.href = 'checkout.html'; 
 });
