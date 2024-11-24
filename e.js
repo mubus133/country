@@ -153,3 +153,22 @@ function updateCartCount() {
 cartIcon.addEventListener('click', () => {
     window.location.href = 'cart.html'; 
 });
+
+const dropDownMenu = document.querySelector('.dropdown')
+const signUp = document.querySelector('.signup')
+const signIn = document.querySelector('.signin')
+const logOut = document.querySelector('.logout')
+const drop = document.querySelector('.dropdown-menu')
+
+dropDownMenu.addEventListener('click', () => {
+
+    if (drop === signUp) {
+        window.location = 'signupform.html';
+    } else if (drop === signIn) {
+        window.location = 'loginform.html';
+
+    } else {
+        alert('please signup');
+    }
+
+});
