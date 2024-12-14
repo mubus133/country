@@ -35,8 +35,10 @@ function fetchProducts(query = '') {
         .then(data => {
             allProducts = data;
             displayProducts(data);
+            alert("THIS SITE IS STILL UNDER CONSTRUCTION");
         })
         .catch(error => console.error('Error fetching products:', error));
+
 }
 
 // Display products in grid

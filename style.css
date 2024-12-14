@@ -109,6 +109,20 @@ main{
     top: 0;
 }
 
+@media screen and (max-width: 768px) {
+    .carousel-item{
+        margin-top: 50px;
+        margin-left: 20px;
+        margin-right: 20px;
+        /* display: flex; */
+        /* gap: 10px; */
+    }
+
+    .img{
+        display: none;
+    }
+}
+
 
 /* carousel-2 */
 .product{
